@@ -2,7 +2,6 @@ local function Start()
 	
 
 
--- Instances: 65 | Scripts: 22 | Modules: 0
 local G2L = {};
 
 -- StarterGui.Operator
@@ -16,7 +15,6 @@ G2L["2"]["BackgroundColor3"] = Color3.fromRGB(35, 35, 35);
 G2L["2"]["Size"] = UDim2.new(0, 497, 0, 263);
 G2L["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["2"]["Position"] = UDim2.new(0.36886101961135864, 0, 0.33853593468666077, 0);
-G2L["2"]["Visible"] = false;
 G2L["2"]["Name"] = [[Loading-Frame]];
 
 -- StarterGui.Operator.Loading-Frame.Load.Text
@@ -68,6 +66,7 @@ G2L["8"]["BackgroundColor3"] = Color3.fromRGB(59, 59, 59);
 G2L["8"]["Size"] = UDim2.new(0, 603, 0, 330);
 G2L["8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["8"]["Position"] = UDim2.new(0.3437826633453369, 0, 0.29751527309417725, 0);
+G2L["8"]["Visible"] = false;
 G2L["8"]["Name"] = [[MainUI]];
 
 -- StarterGui.Operator.MainUI.Title
@@ -960,4 +959,5 @@ end
 
 
 --=[Start]=--
+
 Start()
